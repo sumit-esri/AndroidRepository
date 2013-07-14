@@ -7,45 +7,106 @@
     tools:context=".HelloWorld" >
 
     <TextView
-       android:id="@+id/TextView"
+        android:id="@+id/TextView"
         style="@style/MyStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5px"
         android:layout_weight="10"
-        android:text="@string/hello_world" 
-        android:layout_margin="5px"/>
- 
-    
-     <TextView
+        android:text="@string/hello_world"
+        android:textStyle="bold|italic" 
+        android:shadowColor="@color/fuchsia"/>
+
+    <TextView
         android:id="@+id/TextView2"
         style="@style/MyStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5px"
         android:layout_weight="10"
-        android:textColor="@color/green"
-        android:text="@string/hello_world" 
-         android:layout_margin="5px"/>
-    
-     <TextView
+        android:text="@string/S1" />
+
+    <TextView
         android:id="@+id/text_view3"
         style="@style/MyStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5px"
         android:layout_weight="10"
-        android:textColor="@color/green"
-        android:text="@string/hello_world" 
-        android:layout_margin="5px"/>
-   
-    
-     <TextView
+        android:text="@string/hello_world"
+ 		android:textColor="@color/aqua"	/>
+
+    <TextView
         android:id="@+id/text_view4"
         style="@style/MyStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5px"
         android:layout_weight="10"
-        android:textColor="@color/red"
-        android:text="@string/hello_world" 
-         android:layout_margin="5px"/>
+        android:text="@string/hello_world"
+        android:textColor="@color/red" />
 
+    <TextView
+        android:id="@+id/text_view5"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:layout_weight="10"
+        android:text="@string/hello_world"
+        android:textColor="@color/lime" />
+
+    <TextView
+        android:id="@+id/text_view6"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:layout_weight="10"
+        android:text="@string/hello_world"
+        android:textColor="@color/purple" />
+
+    <TextView
+        android:id="@+id/text_view7"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:layout_weight="10"
+        android:text="@string/hello_world"
+        android:textColor="@color/gray" />
+
+    <TextView
+        android:id="@+id/text_view8"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:layout_weight="10"
+        android:text="@string/hello_world"
+        android:textColor="@color/navy" 
+        android:shadowColor="@color/gray"
+        android:shadowRadius="1.5"/>
+
+    <TextView
+        android:id="@+id/text_view9"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:layout_weight="10"
+        android:text="@string/hello_world"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/text_view10"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:layout_weight="10"
+        android:text="@string/hello_world"
+        android:textColor="@color/purple"
+        android:textStyle="italic" />
 
 </LinearLayout>
